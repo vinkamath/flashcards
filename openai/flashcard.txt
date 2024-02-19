@@ -1,0 +1,487 @@
+# Modern home furniture
+Sofa
+Dining table
+Bed
+Chair
+Coffee table
+Wardrobe
+Desk
+Bookshelf
+Dresser
+Nightstand
+TV stand
+Ottoman
+Recliner
+Bar stool
+Futon
+Bench
+Loveseat
+
+# Domestic Appliances
+Refrigerator
+Washing machine
+Dryer
+Dishwasher
+Microwave
+Oven
+Stove (Gas or Electric)
+Blender
+Coffee maker 
+Toaster
+Food processor
+Electric kettle
+Juicer
+Slow cooker? Instantpot
+Air fryer
+Rice cooker
+Vacuum cleaner
+Iron
+Air conditioner
+Heater
+Humidifier
+Electric fan
+Garbage disposal
+Water purifier
+Electric hand mixer
+Handheld vacuum cleaner
+
+
+
+# Parts of the human body and organs
+Brain
+Heart
+Lungs
+Liver
+Kidneys
+Stomach
+Pancreas
+Small Intestines
+Large Intestines  
+Gallbladder
+Bladder
+Esophagus
+Skin
+
+
+
+# Body parts
+Head
+Hair
+Chin
+Cheeks
+Forehead
+Neck
+Shoulders
+Arms
+Elbows
+Eyebrows
+Fingers
+Chest
+Tummy
+Belly button
+Hips
+Legs
+Knees
+Feet
+Thighs
+Toes
+Eyes
+Ears
+Nose
+Tongue
+
+
+# Musical Instruments
+Sitar
+Tabla
+Sarod
+Wooden flute
+Veena
+Santoor
+Sarangi
+Shehnai
+Harmonium
+Tanpura
+Pakhawaj
+Mridangam
+Violin 
+Chello
+Flute
+Cello
+Saxophone
+Trombone
+Dholak
+Rudra veena
+Bansuri
+Ghatam
+Shruti box
+Grand piano 
+Djembe 
+
+# Scuba diving equipment
+Diving mask
+Snorkel
+Wetsuit or drysuit
+Buoyancy Control Device (BCD)
+Regulator
+Dive computer or depth gauge
+Scuba tank
+Weight belt or integrated weights
+Fins
+Compass 
+Underwater camera 
+Dive flag
+
+
+# Car manufacturer logos
+Toyota
+Ford
+Honda
+Chevrolet
+Volkswagen
+Nissan
+BMW
+Mercedes-Benz
+Audi
+Hyundai
+Kia
+Subaru
+Jeep
+Mazda
+Tesla
+Lexus
+Volvo
+GMC
+Chrysler
+Land Rover
+Maruti
+Bajaj 
+
+
+# Animals
+Squirrel
+Bandicoot 
+Mouse 
+Guineapig 
+Hamster
+Hyena
+African wild dog
+Wolf
+Fox
+Brown Bear
+Grizzly Bear
+Panda
+Red Panda
+Polar bear
+Koala
+Kangaroo
+Wallaby
+Platypus
+Tasmanian devil
+Wombat
+Dingo
+Antelope
+Bison
+Caribou
+Moose
+Meerkat
+Aardvark
+Aardwolf
+Camel
+Elephant seal
+Groundhog
+Marmoset
+Ocelot
+Pangolin
+Raccoon
+Serval
+Tapir
+Tasmanian tiger
+Quokka
+Quoll
+Red kangaroo
+Wallaroo
+
+# Reptiles
+Alligator
+Lizard
+Chameleon
+Komodo dragon
+Gila monster
+Monitor lizard
+Anaconda
+Boa constrictor
+Rattlesnake
+Cobra
+King cobra
+Green iguana
+Bearded dragon
+Skink
+Agama
+Horned lizard
+Blue-tongued skink
+Tuatara
+Gharial
+Horned viper
+Black mamba
+Llama 
+Alpaca 
+
+
+# Marine animals
+Sperm Whale
+Blue whale 
+Beluga whale
+Gray whale
+Jellyfish
+Sea turtle
+Sea horse
+Lobster
+Crab
+Hermit crab
+Sea otter
+Manatee
+Starfish
+Moray eel
+Swordfish
+Sea lion
+Pufferfish
+Manta ray
+Blue tang
+Sea cucumber
+Cuttlefish
+Sea urchin
+Narwhal
+Sea anemone
+Bottlenose dolphin
+Lionfish
+Sea slug
+Reef shark
+Leatherback sea turtle
+Olive ridley turtle
+Green sea turtle
+loggerhead sea turtle
+hawksbill sea turtle
+Sea dragon
+Electric ray
+Sea snake
+King crab
+Horseshoe crab
+Sea sponge
+Oyster
+Sea star
+Walrus
+Dugong
+Sea bass
+Box jellyfish
+Moon jellyfish
+Lion's mane jellyfish 
+Box jellyfish
+Portuguese man o' war
+Sea nettle 
+Spiny lobster
+Electric eel
+Sea snail
+Porcupine fish
+Leopard seal
+Giant clam
+Sea bream
+Sea cow
+
+# birds
+Bald eagle
+American robin
+Myna
+Blue jay
+Cardinal
+Red-tailed hawk
+Falcon
+Osprey
+Snowy owl
+Great horned owl
+Barn owl
+Raven
+Starling
+Sparrow
+Goldfinch
+Mockingbird
+Goose
+Mallard duck
+Puffin
+Egret
+Crane
+Seagull
+Vulture
+Emu
+Ostrich
+
+# Tools in a toolbox
+Screwdriver 
+wrench
+Plier
+Hammer
+Tape measure
+Utility knife
+Level
+Hacksaw
+Handsaw
+Chisel
+Pry bar
+Flashlight
+Safety goggles
+Work gloves
+Electric drill
+Screws
+nails
+bolts
+Duct tape
+
+
+
+# Items of clothing 
+Shirt
+Pants
+Dress
+Skirt
+Jacket
+Coat
+Sweater
+Blouse
+T-shirt
+Shorts
+Suit
+Blazer
+Jeans
+Leggings
+Jumpsuit
+Hoodie
+Cardigan
+Scarf
+Hat
+Gloves
+Socks
+Shoes
+Boots
+Sandals
+Belt
+Tie
+Watch
+Sunglasses
+
+
+
+# Types of trucks 
+Dump truck
+Tow truck
+Box truck
+Flatbed truck
+18-wheeler
+Garbage truck
+Tanker truck
+Refrigerator truck
+Logging truck 
+Food truck
+Utility truck
+Mobile crane truck
+Car transporter truck
+Wrecker truck
+Water truck
+Flatbed tow truck
+Step van 
+Armored truck
+Snowplow truck
+Street sweeper truck
+
+
+# Types of train
+bullet train
+London underground
+Metro
+Freight trains 
+Tram
+Street car
+Monorail 
+Double-decker trains
+Airport trains
+Electric trains
+
+# Butterfly lifecycle 
+Egg
+Caterpillar
+Cocoon
+Butterfly
+
+# Natural wonders
+Volcanoes
+Waterfalls
+Caves
+Canyons
+Mountains
+Glaciers
+River 
+Ocean
+Beach
+Fjords
+Archipelagos
+Coral reefs
+Sand dunes
+Hot springs
+Geysers
+Lava fields
+Icebergs
+Plateaus
+Tundras
+Valleys
+Cliffs
+Deserts
+Rainforests
+
+
+# Types of beans
+Black gram (Urad dal)
+Red kidney beans (Rajma)
+Chickpeas (Chana)
+Pigeon peas (Toor dal)
+Moong beans (Mung dal)
+Black-eyed peas (Lobia)
+Lentils (Masoor dal)
+Fava beans (Val dal)
+Soy bean 
+Black bean
+Pinto beans 
+
+ 
+# Baby animals 
+Puppy (dog)
+Kitten (cat)
+Foal (horse)
+Calf (cow)
+Fawn (deer)
+Colt (young male horse)
+Filly (young female horse)
+Piglet (pig)
+Gosling (goose)
+Duckling (duck)
+Cygnet (swan)
+Kit (fox)
+Cub (lion)
+Cub (tiger)
+Cub (bear)
+Joey (kangaroo)
+Pup (seal)
+Pup (wolf)
+Chick (chicken)
+Eaglet (eagle)
+Bunny (rabbit)
+
+
+# Types of clouds 
+Cumulus
+Cirrus
+Stratus
+Cumulonimbus
+Altostratus
+Altocumulus
+Cirrostratus
+Cirrocumulus
+
