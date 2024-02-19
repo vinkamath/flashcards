@@ -3,7 +3,7 @@ client = OpenAI()
 
 #### CONFIG ####
 MODEL = "gpt-4-turbo-preview"
-MAX_TOKENS = 150
+MAX_TOKENS = 200
 TEMPERATURE = 1
 TOP_P = 1.0
 #### CONFIG ####
@@ -36,7 +36,7 @@ def process_input(user_input):
 
 
 def chat_with_ai():
-    print(f"You are now chatting with {MODEL}. Type '/exit' to end the conversation.")
+    print(f"You are now chatting with {MODEL}. Type '/help' for help and '/exit' to end the conversation.")
     conversation = [{"role": "system", "content": "You are a helpful assistant."}]
     
     while True:
