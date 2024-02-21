@@ -1,8 +1,67 @@
+# Marine animals realistic
+Sperm Whale 
+Blue whale 
+Beluga whale
+Gray whale
+Jellyfish
+Sea turtle
+Sea horse
+Lobster
+Crab
+Hermit crab
+Sea otter
+Manatee
+Starfish
+Moray eel
+Swordfish
+Sea lion
+Pufferfish
+Manta ray
+Blue tang
+Sea cucumber
+Cuttlefish
+Sea urchin
+Narwhal
+Sea anemone
+Bottlenose dolphin
+Lionfish
+Sea slug
+Reef shark
+Leatherback sea turtle
+Olive ridley turtle
+Green sea turtle
+loggerhead sea turtle
+hawksbill sea turtle
+Electric ray
+Sea snake
+King crab
+Horseshoe crab
+Sea sponge
+Oyster
+Sea star
+Walrus
+Dugong
+Sea bass
+Box jellyfish
+Moon jellyfish
+Lion's mane jellyfish 
+Box jellyfish
+Portuguese man o' war
+Sea nettle 
+Spiny lobster
+Electric eel
+Sea snail
+Porcupine fish
+Leopard seal
+Giant clam
+Sea bream
+Sea cow
+
 # Modern home furniture
 Sofa
 Dining table
 Bed
-Chair
+Upholstered Chair
 Coffee table
 Wardrobe
 Desk
@@ -14,24 +73,21 @@ Ottoman
 Recliner
 Bar stool
 Futon
-Bench
+Small Bench
 Loveseat
 
 # Domestic Appliances
 Refrigerator
 Washing machine
-Dryer
 Dishwasher
-Microwave
-Oven
-Stove (Gas or Electric)
+Microwave oven
+Convection Oven
+Gas stove
 Blender
 Coffee maker 
 Toaster
-Food processor
 Electric kettle
-Juicer
-Slow cooker? Instantpot
+Slow cooker
 Air fryer
 Rice cooker
 Vacuum cleaner
@@ -228,66 +284,6 @@ Llama
 Alpaca 
 
 
-# Marine animals
-Sperm Whale
-Blue whale 
-Beluga whale
-Gray whale
-Jellyfish
-Sea turtle
-Sea horse
-Lobster
-Crab
-Hermit crab
-Sea otter
-Manatee
-Starfish
-Moray eel
-Swordfish
-Sea lion
-Pufferfish
-Manta ray
-Blue tang
-Sea cucumber
-Cuttlefish
-Sea urchin
-Narwhal
-Sea anemone
-Bottlenose dolphin
-Lionfish
-Sea slug
-Reef shark
-Leatherback sea turtle
-Olive ridley turtle
-Green sea turtle
-loggerhead sea turtle
-hawksbill sea turtle
-Sea dragon
-Electric ray
-Sea snake
-King crab
-Horseshoe crab
-Sea sponge
-Oyster
-Sea star
-Walrus
-Dugong
-Sea bass
-Box jellyfish
-Moon jellyfish
-Lion's mane jellyfish 
-Box jellyfish
-Portuguese man o' war
-Sea nettle 
-Spiny lobster
-Electric eel
-Sea snail
-Porcupine fish
-Leopard seal
-Giant clam
-Sea bream
-Sea cow
-
 # birds
 Bald eagle
 American robin
@@ -473,15 +469,3 @@ Pup (wolf)
 Chick (chicken)
 Eaglet (eagle)
 Bunny (rabbit)
-
-
-# Types of clouds 
-Cumulus
-Cirrus
-Stratus
-Cumulonimbus
-Altostratus
-Altocumulus
-Cirrostratus
-Cirrocumulus
-
