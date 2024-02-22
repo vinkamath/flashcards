@@ -1,1 +1,8 @@
+# Mac specific
+.DS_Store
+
+# Byte-compiled / optimized 
+*.py[cod]
+
+# Outputs
 generated_images

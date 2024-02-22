@@ -1,4 +1,4 @@
-from openai import OpenAI
+from include import OpenAI
 client = OpenAI()
 
 #### CONFIG ####
