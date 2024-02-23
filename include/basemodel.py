@@ -7,7 +7,7 @@ class BaseModel():
      self.n = num_images
 
      self.categories = {"openai": ["dall-e-2", "dall-e-3"],
-                        "sdxl": ["sdxl-1.0"],# "sdxl-turbo"],
+                        "sdxl": ["sdxl-1.0", "sdxl-turbo"],
                         "kandinsky": ["kandinsky3"]
                         }
      if category in self.categories.keys():
