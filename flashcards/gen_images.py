@@ -1,14 +1,16 @@
 import os
 from include.texttoimage import gen_image_from_prompt
 from include.basemodel import BaseModel
-MAX_IMAGES = 3
 
 output_dir = "generated_images"
-current_dir = os.path.dirname(os.path.abspath(__file__))
+target_list_filename = 'flashcard.txt'
+MAX_IMAGES = 6
+model_family = "sdxl"
+model_name = "sdxl-turbo"
 
 image_cnt = 0
-image_model = BaseModel()
-namelist_file = os.path.join(current_dir, 'flashcard.txt')
+current_dir = os.path.dirname(os.path.abspath(__file__))
+namelist_file = os.path.join(current_dir, target_list_filename)
 
 with open(namelist_file) as f:
     for line in f:
@@ -25,7 +27,7 @@ with open(namelist_file) as f:
         # Create required directories 
         category = "general" if category == "" else category 
         category = category.lower().replace(" ", "_")
-        image_dir = os.path.join(output_dir, category)
+        image_dir = os.path.join(output_dir, model_family, category)
         if not os.path.exists(image_dir):
             os.makedirs(image_dir)
         reject_dir = os.path.join(image_dir, "reject")
@@ -36,9 +38,11 @@ with open(namelist_file) as f:
         filename = object.lower().replace(" ","_") + ".png"
         filepath = os.path.join(image_dir, filename)
         if not os.path.exists(filepath):
+            if 'image_model' not in locals():
+                image_model = BaseModel(model_family, model_name)
             print(category + ": " + object) 
-            prompt = object + " logo in original colors on a light background, flat image" 
-            image = gen_image_from_prompt(image_model, category, object, prompt)
+            prompt = object + " in photorealistic colors" 
+            image = gen_image_from_prompt(image_model, prompt)
             f = open(filepath, 'wb')
             f.write(image)
 
