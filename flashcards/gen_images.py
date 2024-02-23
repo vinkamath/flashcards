@@ -23,6 +23,8 @@ with open(namelist_file) as f:
             object = line         
             filename = object.lower().replace(" ","_") + ".png"
             
+            category = "general" if category == "" else category 
+            category = category.lower().replace(" ", "_")
             image_dir = os.path.join(output_dir, category)
             if not os.path.exists(image_dir):
                 os.makedirs(image_dir)
@@ -34,7 +36,9 @@ with open(namelist_file) as f:
             if not os.path.exists(filepath):
                 print(category + ": " + object) 
                 prompt = object + " logo in original colors on a light background, flat image" 
-                gen_image_from_prompt(image_model, category, object, prompt)
+                image = gen_image_from_prompt(image_model, category, object, prompt)
+                f = open(filepath, 'wb')
+                f.write(image)
 
         image_cnt += 1
         if image_cnt >= MAX_IMAGES:
