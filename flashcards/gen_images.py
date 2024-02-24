@@ -6,7 +6,7 @@ output_dir = "generated_images"
 target_list_filename = 'flashcard.txt'
 MAX_IMAGES = 6
 model_family = "sdxl"
-model_name = "sdxl-turbo"
+model_name = "sdxl-1.0"
 
 image_cnt = 0
 current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -27,7 +27,7 @@ with open(namelist_file) as f:
         # Create required directories 
         category = "general" if category == "" else category 
         category = category.lower().replace(" ", "_")
-        image_dir = os.path.join(output_dir, model_family, category)
+        image_dir = os.path.join(output_dir, model_name, category)
         if not os.path.exists(image_dir):
             os.makedirs(image_dir)
         reject_dir = os.path.join(image_dir, "reject")
