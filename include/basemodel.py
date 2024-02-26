@@ -1,4 +1,3 @@
-import torch 
 
 class BaseModel():
   def __init__(self, model_family = "openai", model_name="dall-e-3", size_w="1024", size_h="1024", quality="standard", num_images=1):
@@ -23,6 +22,7 @@ class BaseModel():
 
      # This is temporary hack. Move this to the respective classes
      if self.family == "sdxl":
+      import torch 
       if self.name == "sdxl-turbo":
         from diffusers import AutoPipelineForText2Image
         self.base = AutoPipelineForText2Image.from_pretrained("stabilityai/sdxl-turbo", torch_dtype=torch.float16, variant="fp16")
