@@ -3,10 +3,12 @@ from include.texttoimage import gen_image_from_prompt
 from include.basemodel import BaseModel
 
 def gen_images(output_dir):
-    target_list_filename = 'flashcards.txt'
-    MAX_IMAGES = 1
-    model_family = "openai"
-    model_name = "dall-e-3"
+    target_list_filename = 'flashcard.txt'
+    MAX_IMAGES = 200
+    #model_family = "sdxl"
+    #model_name = "sdxl-1.0"
+    model_family = "kandinsky"
+    model_name = "kandinsky3"
 
     image_cnt = 0
     current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -41,7 +43,12 @@ def gen_images(output_dir):
                 if 'image_model' not in locals():
                     image_model = BaseModel(model_family, model_name)
                 print(category + ": " + object) 
-                prompt = "side view photo of a single " + object + "on a light background, digital color camera" 
+                if "animal" in category:
+                    prompt = "Full body shot side view of a single " + object + " in the style of a digital color photo"
+                elif "natural" in category:
+                    prompt =  object + "in natural colors in the style of a digital color photo"
+                else:
+                    prompt = "single " + object + " in the style of a professional product color photo"
                 image = gen_image_from_prompt(image_model, prompt)
                 f = open(filepath, 'wb')
                 f.write(image)

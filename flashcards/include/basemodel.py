@@ -43,3 +43,8 @@ class BaseModel():
           variant="fp16",
         )
         self.refiner.to("cuda")
+     elif self.family == "kandinsky":
+        import sys
+        sys.path.append('../../Kandinsky3')
+        from kandinsky3 import get_T2I_pipeline
+        self.base = get_T2I_pipeline('cuda:0', fp16=True)
