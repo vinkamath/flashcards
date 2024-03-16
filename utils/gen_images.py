@@ -4,20 +4,19 @@ import yaml
 from include.texttoimage import gen_image_from_prompt
 from include.basemodel import BaseModel
 
-class generateImage():
+class GenerateImage():
     def __init__(self, config_dir='config', config_filename='generate.yaml') -> None:
         current_dir = os.path.dirname(os.path.abspath(__file__))
         config_file = os.path.join(current_dir, config_dir, config_filename)
         with open(config_file, 'r') as file:
             config_data = yaml.safe_load(file)
-        print(config_data)
         self.config_dirname = config_dir
-        self.input_filename = 'flashcard.txt'
+        self.input_filename = config_data["general"]["input_filename"]
         self.max_images = config_data["general"]["max_images"]
         self.model_family = config_data["model"]["family"]
         self.model_name = config_data["model"]["name"]
 
-    def gen_images(self, output_dir):
+    def generate(self, output_dir):
         image_cnt = 0
         current_dir = os.path.dirname(os.path.abspath(__file__))
         namelist_file = os.path.join(current_dir, self.config_dirname, self.input_filename)
@@ -67,5 +66,5 @@ class generateImage():
 
 if __name__ == "__main__":
   output_dir = "generated_images"
-  image = generateImage()
-  image.gen_images(output_dir)                 
+  image = GenerateImage()
+  image.generate(output_dir)                 

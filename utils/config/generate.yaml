@@ -3,3 +3,4 @@ model:
   family: sdxl
 general:
   max_images: 1
+  input_filename: flashcard.txt

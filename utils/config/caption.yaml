@@ -1,0 +1,8 @@
+thresholds:
+  white: 200
+  black: 128
+  sample_area: 1000
+caption:
+  truetype_font_name: "Tahoma Bold"
+  truetype_font_size: 55
+  bottom_offset_percentage: 0.92
