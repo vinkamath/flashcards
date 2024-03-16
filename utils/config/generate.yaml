@@ -1,0 +1,5 @@
+model:
+  name: sdxl-1.0
+  family: sdxl
+general:
+  max_images: 1
