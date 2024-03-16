@@ -1,14 +1,15 @@
-# Flashcards
-We want to print 1500 flashcards. For a smaller number, we would manually download and caption images and combine them into a single PDF that can be sent over for printing. However, at this scale, we need to automate the entire proess.
+# A Thousand Flashcards
+Our toddler loves flashcards. Inhales them, infact. The enthusiastic parents that we are, we would like to have an endless supply of flashcards to keep up with our son's varcious apetite for flashcards. There are only so many you can buy. What then? How do you print a thousand flashcards?
 
+Can we use generative AI to help us generate printable flashcard files? Ideally, we would like to be able to create a printable PDF based off a single prompt
 ## The Process
-1. Create a list of categories and objects
-1. Download or generate an image for each subject
-1. Caption the images
-1. Combine the images into a single PDF
+1. **List**: Create a list of categorized objects
+1. **Generate**: Use a texttoimage model to generate images
+1. **Caption**: Caption each image
+1. **Combine**: Convert captioned images into a printable PDF
 
-## List
-Use a GPT to generate a list. Start category names with `#`. For example:
+### List
+We use a chat completion LLM to generate a human readable list of objects. Category names start with `#`. Here is an example:
 ```
 # Animals
 Alligator
@@ -20,12 +21,10 @@ Seagull
 Puffin
 Crane
 ```
+### Generate
 
-## Image
-Use a text to image model like Kankinsky3 or SDXL.
+### Caption
 
-## Caption
-Use PIL to add the `object` name at bottom of each image.
+### Combine
 
-## Combine
-Combine all images into a single PDF.
+## Installation
